@@ -1,3 +1,5 @@
+
+
 function updateTime() {
   let newYorkElement = document.querySelector("#new-york");
   if (newYorkElement) {
@@ -37,6 +39,7 @@ function updateCity (event) {
 </div>`
 
 }
+
 updateTime();
 
 setInterval(updateTime, 1000);
